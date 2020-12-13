@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMC CALCULATOR</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <div id="header"><!-- INICIO DO HEADER-->
+        <h1 id="logo"><span>{ IMC } CALCULATOR</span> </h1>
+    </div><!-- FIM DO HEADER-->
+    <div id="main-body"><!-- INICIO DO MAIN-BODY-->
+
+
+        <div id="conteudo">
+
+            <div id="explicacao"><!-- INCIO DA EXPLICACAO -->
+                <h2>Calculadora</h2>
+                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela
+                     Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
+                
+                <p>O índice é calculado da seguinte maneira:
+                     divide-se o peso do paciente pela sua altura elevada ao quadrado. </p>
+                
+                     <p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare
+                     com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
+            </div><!-- FIM DA EXPLICACAO -->
+
+            <div id="form-body"><!--INCIO DO FORMULARIO -->
+                <h2>Insira seus Dados</h2>
+                <script src="imc.js"></script>
+
+                <img src="imgs/pngfuel.com.png" class="imgs">
+                <form id='form'>
+
+                    <div class='label-input'>
+                        <label for="nome">Nome</label><br>
+                        <input type="text"
+                         id="nome" 
+                         name="nome"
+                         placeholder="Insira seu nome aqui">
+                    </div>
+
+                    <div class='label-input'>
+                        <label for="peso">Peso  
+                            <span>(ex.: 60.2)</span>
+                        </label><br>
+
+                        <input type="text"
+                         id="peso" 
+                         name="peso"
+                         placeholder="Insira seu peso aqui">
+                    </div>
+
+
+                    <div class='label-input'>
+                        <label for="peso">Altura 
+                            <span>(ex.: 1.70)</span>
+                        </label><br>
+
+                        <input type="text"
+                         id="altura" 
+                         name="altura"
+                         placeholder="Insira seu altura aqui">
+                    
+                    </div>
+
+                    <div id="botoes">
+                        <button id="btn"
+                        onclick="Resultado()"
+                        type="button"> Calcular
+                        </button>
+
+                        <button id = 'btn-reload'
+                        onclick=""
+                        >Resetar
+                        </button>
+                    </div>
+
+
+                </form>
+            </div><!--FIM DO FORMULARIO -->
+
+            <div id="resultado"><!--INICIO DO RESULTADO -->
+
+                <h2>Resultado</h2>
+                <p id='p-resultado'>Seu resultado aqui...</p>
+                <div id="div-resultado">
+                </div>
+
+            </div><!--FIM DO RESULTADO -->
+
+        </div>
+
+
+
+    </div>
+
+    <div id="footer"><!--INCIO DO RODAPE-->
+        <p>&copy; Copyright: 2001-2020</p>
+    </div><!--FIM DO RODAPE-->
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+/* FORMATACOES GERAIS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    background-color: #2265BD;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+p{
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+/* FORMATACOES MAIN BODY */
+
+#main-body{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* FORMATACOES HEADER */
+#header{
+    background-color: #2265BD;
+    height: 200px;
+}
+
+#logo{
+    text-align: center;
+    padding-top: 70px;
+    color: #ffffff;
+}
+#logo span{
+
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+/* FORMATACOES DO CONTEUDO */
+#conteudo{
+    position: relative;
+    margin: 20px 50px;
+    margin-bottom: 30px;
+}
+
+#explicacao{
+    border-radius: 5px;
+    background-color: #eeeeee;
+    margin-bottom: 30px ;
+}
+
+#resultado{
+    float: left;
+    width: 600px;
+    min-height: 200px;
+    margin: 0 0 15px 15px;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+#resultado p#p-resultado{
+    font-size: 1.3em;
+    padding: 8px;
+    margin-top: 10px;
+    border-bottom: 1px solid  #cecece;
+}
+
+#resultado #div-resultado{
+    padding: 5px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#resultado #div-resultado p{
+    background-color: #2265BD;
+    color: #ffffff;
+}
+
+
+#form-body{
+    background-color: #eeeeee;
+    float: left;
+    width: 950px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.imgs{
+    width: 200px;
+    height: auto;
+    float:right;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+.label-input{
+    margin: 30px 20px;
+    padding: 0px 60px;
+}
+
+.label-input label{
+    background-color:  #102e58;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.label-input label span{
+    font-size: 0.8em;
+}
+
+.label-input input{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(54, 54, 54);
+}
+
+#botoes button{
+    margin-left: 25px;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #102e58;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn{
+    position: absolute;
+    left: 60%;
+    bottom: 30px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: #205caf;
+}
+
+#botoes button#btn-reload{
+    background-color: #860c0c;
+    position: absolute;
+    left: 73%;
+    bottom: 30px;
+}
+
+#botoes button#btn-reload:hover{
+    background-color: #e23939;
+    cursor: pointer;
+}
+
+/* FORMATACAO RODAPE */
+#footer{
+    clear: both;
+    background: #163d74;
+    padding: 20px;
+}
+#footer p{
+    text-align: center;
+    color: #ffffff;
+}
